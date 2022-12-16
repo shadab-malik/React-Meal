@@ -1,0 +1,49 @@
+.cart-item-container
+{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height:5rem;
+}
+.cart-item-specifics
+{
+    justify-content: space-between;
+}
+.cart-item-price{
+    color: chocolate;
+    font-size: large;
+    width: 9rem;
+    display: inline-block;
+}
+
+.cart-item-quantity{
+    
+    color: gray;
+    margin-left: 8rem;
+    border:solid rgba(0, 0, 0, 0.205) 1.2px;
+    border-radius: .4rem;
+    padding: 0.01rem 0.3rem;
+    font-size: large;
+}
+.cart-item-btn{
+    width:4rem;
+    height: 2.5rem;
+    border: solid rgb(210, 105, 30) 0.15rem;
+    border-radius: 0.5rem;
+    color:chocolate;
+    background-color: transparent;
+    font-size: large;
+    
+
+}
+.cart-item-btn:hover{
+    transform: scale(1.2);
+}
+.btns{
+    
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-end;
+
+}

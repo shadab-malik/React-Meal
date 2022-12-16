@@ -1,0 +1,38 @@
+.cartbutton
+{
+    width:20rem;
+    height: 4.5rem;
+    border-radius: 100rem;
+    color: white;
+    background-color: rgb(97, 40, 0);
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.cartbutton:hover{
+    transform: scale(1.1);
+}
+
+.carticon{
+    
+    width: 2.5rem;
+    height:100%;
+    
+}
+.carttext{
+    
+    font-weight: bolder;
+    font-size:large ;
+}
+
+.cart-items-count
+{
+    font-weight: bolder;
+    font-size: 120%;
+    background-color: rgb(150, 63, 1);
+    width: 3rem;
+    border-radius: 100px;
+    padding: .2rem;
+}

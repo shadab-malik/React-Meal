@@ -1,0 +1,10 @@
+.button{
+    width:max-content;
+    padding:0.7rem 1.5rem;
+    border-radius: 10rem;
+    font-size: large;
+    margin: 1rem 0.5rem;
+}
+.button:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,40 @@
+.cart-background{
+    background: rgba(0,0 , 0, 0.8);
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height:100%;
+    
+  }
+
+  .meals-cart-card
+  {
+    background-color: white;
+    position: fixed;
+    z-index:100;
+    width:50%;
+    transform: translateX(47%);
+    top:20%;
+  }
+
+
+  .amount_container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .part{
+    display: inline-block;
+  }
+
+  .button-close{
+    background-color: white;
+    border:solid 1px;
+    color: chocolate;
+  }
+
+  .button-order{
+    background-color: chocolate;
+    border:solid 1px;
+    color: white;
+  }

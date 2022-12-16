@@ -1,0 +1,19 @@
+.mealscard{
+    position:absolute;
+    
+    z-index: 1;
+    background-color: white;
+    animation: moveUp 1s ease-in forwards;
+    
+}
+
+@keyframes moveUp {
+    0%{
+        transform:translateY(3rem) translateX(42%);
+    }
+
+    100%{
+        transform: translateY(0) translateX(42%);
+    }
+    
+}
